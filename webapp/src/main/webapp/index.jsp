@@ -23,6 +23,7 @@
   <h1>Hello JJ Tech Family !!!</h1>
   <p>This Java Web Application Was Deployed Using CI/CD</p>
   <h2>New Version Deployment by Hillary 12!!!</h2>
+  <h2>New Version Deployment by Hillary 12!!!</h2>
 </div>
 </body>
 </html>
