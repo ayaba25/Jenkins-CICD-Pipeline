@@ -1,7 +1,7 @@
-def COLOR_MAP = [
-    'SUCCESS': 'good', 
-    'FAILURE': 'danger',
-]
+// def COLOR_MAP = [
+//     'SUCCESS': 'good', 
+//     'FAILURE': 'danger',
+// ]
 pipeline {
   agent any
   environment {
@@ -47,7 +47,7 @@ pipeline {
       steps {
         sh """mvn sonar:sonar \
   -Dsonar.projectKey=JavaWebApp \
-  -Dsonar.host.url=http://3.234.224.161:9000 \
+  -Dsonar.host.url=http://172.31.2.246:9000 \
   -Dsonar.login=93045583cae0b0d48b8a56c0c8767f0068f5bf17"""
       }
     }
