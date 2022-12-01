@@ -43,7 +43,7 @@ pipeline {
         //     }
         // }
     }
-    stage('SonarQube Scan') {   edit this c
+    stage('SonarQubeScan') {   //edit this c
       steps {
         sh """mvn sonar:sonar \
   -Dsonar.projectKey=JavaWebApp \
