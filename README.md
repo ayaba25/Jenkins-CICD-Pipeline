@@ -74,8 +74,8 @@
 
 10) Configure Grafana
     - Login/SSH to your Grafana Server
-    - Clone the following repository: https://github.com/awanmbandi/eagles-batch-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Clone the following repository: https://github.com/ayaba25/Jenkins-CICD-Pipeline.git
+    - Change directory to "Jenkins-CICD-Pipeline"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files)
     - Run: ./install-grafana.sh
@@ -86,8 +86,8 @@
     - Login/SSH into the "Dev-Env", "Stage-Env" and "Prod-Env" VM instance
     - Perform the following operations on all of them
     - Install git by running: sudo yum install git -y 
-    - Clone the following repository: https://github.com/awanmbandi/eagles-batch-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Clone the following repository: https://github.com/ayaba25/Jenkins-CICD-Pipeline.git
+    - Change directory to "Jenkins-CICD-Pipeline"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files)
     - Run: ./install-node-exporter.sh
@@ -102,8 +102,8 @@
     - Login/SSH into the "Jenkins-Maven-Ansible", "Nexus" and "SonarQube" VM instance
     - Perform the following operations on all of them
     - Install git by running: sudo yum install git -y    (The SonarQube server already has git)
-    - Clone the following repository: https://github.com/awanmbandi/eagles-batch-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Clone the following repository: https://github.com/ayaba25/Jenkins-CICD-Pipeline.git
+    - Change directory to "Jenkins-CICD-Pipeline"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files including "install-node-exporter.sh")
     - Run: ./install-node-exporter.sh
