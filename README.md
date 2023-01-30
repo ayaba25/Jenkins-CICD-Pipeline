@@ -9,7 +9,7 @@
     - Login to your GitHub Account
     - Create a Repository called "Jenkins-CICD-Project"
     - Clone the Repository in the "Repository" directory/folder in your local
-    - Download the code in in this repository "Main branch": https://github.com/awanmbandi/eagles-batch-devops-projects.git
+    - Download the code in in this repository "Main branch": https://github.com/ayaba25/Jenkins-CICD-Pipeline.git
     - Unzip the code/zipped file
     - Copy and Paste everything from the zipped file into the repository you cloned in your local
     - Add the code to git, commit and push it to your upstream branch "main or master"
@@ -65,8 +65,8 @@
 
 9) Configure Promitheus
     - Login/SSH to your Prometheus Server
-    - Clone the following repository: https://github.com/awanmbandi/eagles-batch-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Clone the following repository: https://github.com/ayaba25/Jenkins-CICD-Pipeline.git
+    - Change directory to "Jenkins-CICD-Pipeline"
     - Swtitch to the "prometheus-and-grafana" git branch  
     - Run: ./install-prometheus.sh
     - Confirm the status shows "Active (running)"
